@@ -8,7 +8,7 @@ const TableHeader: Component<TableHeaderProps> = (props) => {
         {props.columns.map((col, index) => (
           <th
             scope="col"
-            class={`px-4 py-2 text-left ${index === 0 && props.firstCellClassName ? props.firstCellClassName : ""} ${col.className ?? ""}`}
+            class={`px-0 py-1 text-center ${index === 0 && props.firstCellClassName ? props.firstCellClassName : ""} ${col.className ?? ""}`}
           >
             {col.label}
           </th>

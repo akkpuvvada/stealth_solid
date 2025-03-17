@@ -32,7 +32,7 @@ const TableRow: Component<TableRowProps> = (props) => {
             : "";
 
         return (
-          <td key={col.key} class={`px-0.5 py-2 text-gray-700 text-s max-w-[250px] ${centerCell} `}>
+          <td key={col.key} class={`p-0.5 text-gray-700 text-s max-w-[250px] ${centerCell} `}>
             {cellContent}
           </td>
         );

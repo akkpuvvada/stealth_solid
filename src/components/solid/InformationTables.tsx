@@ -66,7 +66,7 @@ const InformationTables: Component = () => {
             title="Corporate Information"
             columns={columns}
             data={corporateData() ?? []}
-            headerFirstCellClassName="bg-mint-500 border-b border-indigo-600 text-white"
+            headerFirstCellClassName="bg-mint-500 border-b border-mint-500 text-white"
           />
         </div>
       </Show >
@@ -77,7 +77,7 @@ const InformationTables: Component = () => {
             title="Financial Information"
             columns={columns}
             data={financialData() ?? []}
-            headerFirstCellClassName="bg-mint-500 border-b border-indigo-600 text-white"
+            headerFirstCellClassName="bg-mint-500 border-b border-mint-500 text-white"
           />
         </div>
       </Show >
