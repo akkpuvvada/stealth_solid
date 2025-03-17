@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@config "../../tailwind.config.js";
+
+@theme {
+    /* Will add if needed */
+}
