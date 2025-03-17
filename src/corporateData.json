@@ -15,7 +15,7 @@
         "index": "Lorem-1p2",
         "tag": "2",
         "notes": "Please provide in excel format",
-        "hyperlink": "Select file",
+        "hyperlink": "Select file"
     },
     {
         "no": 3,
@@ -24,7 +24,7 @@
         "index": "Lorem-1p2",
         "tag": "3",
         "notes": "Please provide in excel format",
-        "hyperlink": "Select file",
+        "hyperlink": "Select file"
     },
     {
         "no": 4,
@@ -33,6 +33,6 @@
         "index": "Lorem-1p2",
         "tag": "4",
         "notes": "Please provide in excel format",
-        "hyperlink": "Select file",
-    },
+        "hyperlink": "Select file"
+    }
 ]
