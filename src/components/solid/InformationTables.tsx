@@ -49,7 +49,6 @@ const InformationTables: Component = () => {
       ]);
 
       // Update the signals with fetched data
-      console.log(data1)
       setFinancialData(data1);
       setCorporateData(data2);
     } catch (error) {
