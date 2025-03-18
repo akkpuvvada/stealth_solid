@@ -16,17 +16,13 @@ const columns: Column[] = [
 ];
 
 const InformationTables: Component = () => {
-  // Create resources for corporate and financial data
-  // const [corporateData] = createResource(fetchCorporateData);
-  // const [financialData] = createResource(fetchFinancialData);
-
   const [financialData, setFinancialData] = createSignal<any>(null);
   const [corporateData, setCorporateData] = createSignal<any>(null);
   const [loading, setLoading] = createSignal(true);
 
   onMount(async () => {
     // Use window.location.origin to construct the absolute URL to the JSON file
-    const url1 = new URL('/api/corporateData', window.location.origin).toString();
+    const url1 = new URL('/api/financialData', window.location.origin).toString();
     const url2 = new URL('/api/corporateData', window.location.origin).toString();
 
     try {
@@ -59,7 +55,7 @@ const InformationTables: Component = () => {
   });
 
   return (
-    <div class="w-full mx-auto p-4 bg-slate-100">
+    <div class="w-full mx-auto p-4 bg-slate-100 max-w-[1080px]">
       <Show when={!loading()} fallback={<div>Loading...</div>}>
         <div class="bg-white shadow rounded-lg p-2 mb-8">
           <InfoTable
